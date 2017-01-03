@@ -271,6 +271,11 @@ nav {
 	padding-bottom: 27px;
 }
 
+#nav li {
+  display: inline;
+  <font color='"Red"'>padding-right: 30px;</font>
+}
+
 .promo {
 	position: relative;
 	width: 100%;
