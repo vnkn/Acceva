@@ -539,7 +539,7 @@ nav {
 	opacity: 1;
 }
 
-.nav_link {
+.project_link {
 	display: inline-block;
 	margin: 0 0 0 -5px;
 	padding: 10px 20px;
@@ -547,12 +547,12 @@ nav {
 	line-height: 1;
 }
 
-.nav_link:not(.marked):hover {
+.project_link:not(.marked):hover {
 	padding-bottom: 10px;
 	background-color: #ededed;
 }
 
-.nav_link.marked {
+.project_link.marked {
 	padding-bottom: 10px;
 	background-color: #ededed;
 }
