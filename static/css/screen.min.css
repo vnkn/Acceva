@@ -220,62 +220,7 @@ header {
 	box-sizing: border-box;
 }
 
-nav {
-	float: right;
-	white-space: nowrap;
-}
 
-.nav-check {
-	display: none;
-}
-
-.nav-icon {
-	display: none;
-	position: absolute;
-	width: 60px;
-	height: 45px;
-	margin-top: 20px;
-	right: 20px;
-	z-index: 5;
-	background-color: #5094f2;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
-	color: white;
-	font-size: 40px;
-	text-align: center;
-	cursor: pointer;
-	-webkit-transition: all 0.4s ease 0s;
-	-o-transition: all 0.4s ease 0s;
-	transition: all 0.4s ease 0s;
-}
-
-.nav-icon:hover {
-	background-color: #2177ee;
-}
-
-.nav_link {
-	margin: 0 20px;
-	padding-bottom: 33px;
-	border-bottom: 6px solid #5094f2;
-	line-height: 90px;
-	color: #6c6c6c;
-	-webkit-transition: all 0.4s ease 0s;
-	-o-transition: all 0.4s ease 0s;
-	transition: all 0.4s ease 0s;
-}
-
-.nav_link:not(.marked):hover {
-	padding-bottom: 27px;
-}
-
-.nav_link.marked {
-	padding-bottom: 27px;
-}
-
-.nav_li{
-  display: inline;
-  <font color='"Red"'>padding-right: 30px;</font>
-}
 
 .promo {
 	position: relative;
