@@ -539,56 +539,6 @@ header {
 	width: 100%;
 }
 
-nav {
-	position: absolute;
-	float: none;
-	width: 100%;
-	left: 0;
-	margin-top: 90px;
-	z-index: 100;
-	background-color: #fff;
-	border-top: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;
-	white-space: normal;
-	text-align: center;
-	overflow: hidden;
-	-webkit-opacity: 0;
-	-khtml-opacity: 0;
-	-moz-opacity: 0;
-	opacity: 0;
-	-webkit-transition: opacity 0.5s ease 0s;
-	-o-transition: opacity 0.5s ease 0s;
-	transition: opacity 0.5s ease 0s;
-}
-
-.nav-icon {
-	display: inline-block;
-}
-
-#nav-check:checked + header nav {
-	-webkit-opacity: 1;
-	-khtml-opacity: 1;
-	-moz-opacity: 1;
-	opacity: 1;
-}
-
-.nav_link {
-	display: inline-block;
-	margin: 0 0 0 -5px;
-	padding: 10px 20px;
-	border-bottom: none;
-	line-height: 1;
-}
-
-.nav_link:not(.marked):hover {
-	padding-bottom: 10px;
-	background-color: #ededed;
-}
-
-.nav_link.marked {
-	padding-bottom: 10px;
-	background-color: #ededed;
-}
 
 .promo {
 	height: 280px;
