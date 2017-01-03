@@ -271,7 +271,7 @@ nav {
 	padding-bottom: 27px;
 }
 
-#nav li {
+.nav_li{
   display: inline;
   <font color='"Red"'>padding-right: 30px;</font>
 }
