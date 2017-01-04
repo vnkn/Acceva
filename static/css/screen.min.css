@@ -160,12 +160,12 @@ p {
 a {
 	font-size: 30px;
 	text-align: right;
-	text-decoration: none;
+	text-decoration: underline;
 	display: inline-block;
 	margin: 0 0 0 -5px;
 	padding: 10px 20px;
 	border-bottom: none;
-	line-height: 1;
+	line-height: 0;
 }
 
 html,
